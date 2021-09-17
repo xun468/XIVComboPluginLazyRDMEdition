@@ -341,7 +341,7 @@ namespace XIVComboExpandedestPlugin
         RedMageAoECombo = 48,
         
         [CustomComboInfo("Red Mage 2 Target Combo", "Replaces jolt 2 with Impact when Dualcast or Swiftcast are active", RDM.JobID, RDM.Impact)]
-        RedMageAoECombo = 100,
+        RedMage2TargetCombo = 100,
 
         [CustomComboInfo("Redoublement Combo", "Replaces Redoublement with its combo chain, following enchantment rules", RDM.JobID, RDM.Redoublement)]
         RedMageMeleeCombo = 49,
