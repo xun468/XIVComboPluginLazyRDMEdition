@@ -4,7 +4,7 @@ namespace XIVComboExpandedestPlugin
 {
     public enum CustomComboPreset
     {
-        // Last enum used: 99
+        // Last enum used: 100
         // Unused enums: 73, 76, 77, 83, 86, 92
         // ====================================================================================
         #region DRAGOON
@@ -339,6 +339,9 @@ namespace XIVComboExpandedestPlugin
 
         [CustomComboInfo("Red Mage AoE Combo", "Replaces Veraero/thunder 2 with Impact when Dualcast or Swiftcast are active", RDM.JobID, RDM.Veraero2, RDM.Verthunder2)]
         RedMageAoECombo = 48,
+        
+        [CustomComboInfo("Red Mage 2 Target Combo", "Replaces jolt 2 with Impact when Dualcast or Swiftcast are active", RDM.JobID, RDM.Impact)]
+        RedMageAoECombo = 100,
 
         [CustomComboInfo("Redoublement Combo", "Replaces Redoublement with its combo chain, following enchantment rules", RDM.JobID, RDM.Redoublement)]
         RedMageMeleeCombo = 49,
