@@ -1427,6 +1427,18 @@ namespace XIVComboExpandedestPlugin
                     return RDM.Verthunder2;
                 }
             }
+            
+            if (Configuration.IsEnabled(CustomComboPreset.RedMage2TargetCombo))
+            {
+                if (actionID == RDM.Jolt2)
+                {
+                    if (HasBuff(DoM.Buffs.Swiftcast) || HasBuff(RDM.Buffs.Dualcast))
+                    {
+                        return GetIconHook.Original(actionManager, RDM.Impact);
+                    }
+                    return RDM.Jolt2;
+                }
+            }
 
             if (Configuration.IsEnabled(CustomComboPreset.RedMageMeleeCombo))
             {
